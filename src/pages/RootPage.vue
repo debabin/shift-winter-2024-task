@@ -22,7 +22,7 @@ onMounted(() => {
       <div v-for="(pokemon, index) in list" :key="pokemon.name">
         <img
           :src="`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index + 1}.png`"
-          alt="pokemon"
+          :alt="pokemon.name"
         />
         <div>{{ pokemon.name }}</div>
       </div>
