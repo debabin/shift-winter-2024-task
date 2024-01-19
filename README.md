@@ -1,5 +1,7 @@
 # **SHIFT WINTER 2024 ИНТЕНСИВ ❄️️**
 
+sample на html/css/js для frontend'а.
+
 ## Техническое задание
 
 - **📦 Заявка на доставку** - [ссылка](https://omniscient-honeydew-f15.notion.site/7c46a3a33c8946bc8353d852afbf39a1)
@@ -14,4 +16,3 @@
 - **react/query** - https://github.com/debabin/shift-winter-2024-task/tree/react/query
 - **react/redux** - https://github.com/debabin/shift-winter-2024-task/tree/react/redux
 - **vue** - https://github.com/debabin/shift-winter-2024-task/tree/vue
-- **html/css/js** - https://github.com/debabin/shift-winter-2024-task/tree/html/css/js
