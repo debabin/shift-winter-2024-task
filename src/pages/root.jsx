@@ -13,7 +13,7 @@ export const RootPage = () => {
             src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${
               index + 1
             }.png`}
-            alt='character'
+            alt={pokemon.name}
           />
           <div>{pokemon.name}</div>
         </div>
