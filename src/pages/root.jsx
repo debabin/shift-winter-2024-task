@@ -8,7 +8,7 @@ export const RootPage = () => {
     queryFn: getPokemons,
     select: ({ data }) => {
       return data.results.map((character, index) => (
-        <div key={character.id} className={'pokemon'}>
+        <div key={character.character} className={'pokemon'}>
           <img
             src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${
               index + 1
