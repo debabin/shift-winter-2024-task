@@ -1,0 +1,19 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pokemons_container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.pokemon {
+  font-size: 20px;
+  text-align: center;
+}
+
+.pokemon img {
+  width: 170px;
+  height: 170px;
+}
