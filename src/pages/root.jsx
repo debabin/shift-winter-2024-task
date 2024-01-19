@@ -7,15 +7,15 @@ export const RootPage = () => {
     queryKey: ['pokemons'],
     queryFn: getPokemons,
     select: ({ data }) => {
-      return data.results.map((character, index) => (
-        <div key={character.character} className={'pokemon'}>
+      return data.results.map((pokemon, index) => (
+        <div key={pokemon.name} className={'pokemon'}>
           <img
             src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${
               index + 1
             }.png`}
             alt='character'
           />
-          <div>{character.name}</div>
+          <div>{pokemon.name}</div>
         </div>
       ));
     }
