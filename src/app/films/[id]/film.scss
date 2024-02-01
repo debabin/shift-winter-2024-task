@@ -1,0 +1,88 @@
+.film {
+  &__section {
+    margin-top: 24px;
+    opacity: 1;
+    animation: fadeIn 0.4s ease-in-out;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  &__back_link {
+    text-decoration: none;
+    div {
+      gap: 16px;
+      width: fit-content;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #637083;
+
+      /* Paragraph 16/Medium */
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px; /* 150% */
+    }
+  }
+  &__container {
+    margin-top: 24px;
+    display: flex;
+    gap: 32px;
+    .antd-btn {
+      background: yellow;
+    }
+  }
+  &__data {
+    max-width: 613px;
+    .filmShortData__title {
+      font-size: 32px;
+      margin-top: 0;
+    }
+  }
+  &__description {
+    color: #344051;
+    margin-top: 16px;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    &_data {
+      max-height: 70px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      transition-duration: 0.3s;
+
+      overflow: hidden;
+      text-overflow: ellipsis;
+      // white-space: nowrap; /* Запрещаем перенос строк */
+    }
+    &_data.active {
+      max-height: 100px;
+      -webkit-line-clamp: unset;
+    }
+    span {
+      color: #97a1af;
+    }
+    &_btn {
+      cursor: pointer;
+      width: fit-content;
+    }
+  }
+  &__scheldue_title {
+    color: #141c24;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    margin-top: 48px;
+    margin-bottom: 24px;
+  }
+}

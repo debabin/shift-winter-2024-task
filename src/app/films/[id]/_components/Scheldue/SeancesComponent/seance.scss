@@ -1,0 +1,14 @@
+.seance {
+  &__title {
+    color: #344051;
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  &__wrap {
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+  }
+}

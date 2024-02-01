@@ -1,0 +1,20 @@
+.places {
+  &__container {
+    margin-top: 24px;
+  }
+  &__title {
+    color: rgb(20, 28, 36);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  &__wrap {
+    display: flex;
+    margin-top: 24px;
+  }
+  &__choose_wrap {
+    margin-top: 26px;
+  }
+}
