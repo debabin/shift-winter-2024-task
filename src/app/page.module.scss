@@ -1,0 +1,33 @@
+.main {
+  max-width: 960px;
+  margin: 0 auto;
+  opacity: 1;
+  animation: fadeIn 0.4s ease-in-out;
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  h1 {
+    /* Title/H2 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+  }
+  .films {
+    &__container {
+      margin-top: 48px;
+    }
+    &__wrap {
+      justify-content: space-between;
+      row-gap: 32px;
+      display: flex;
+      margin-top: 16px;
+      flex-wrap: wrap;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.filmShortData {
+  &__title {
+    margin-top: 16px;
+    color: #141c24;
+
+    /* Title/H3 */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  &__subtitle {
+    color: #637083;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  &__stars_wrap {
+    display: flex;
+    margin-top: 16px;
+  }
+  &__rating {
+    color: #637083;
+    margin-top: 4px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+}

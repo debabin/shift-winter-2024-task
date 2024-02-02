@@ -1,0 +1,36 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier:format": "prettier --write ./src",
+    "prettier:check": "prettier --check ./src"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "@ant-design/nextjs-registry": "^1.0.0",
+    "antd": "^5.13.3",
+    "axios": "^1.6.7",
+    "classnames": "^2.5.1",
+    "lodash": "^4.17.21",
+    "next": "14.1.0",
+    "prettier": "^3.2.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "sass": "^1.70.0",
+    "zustand": "^4.5.0"
+  },
+  "devDependencies": {
+    "@tanstack/react-query": "^5.18.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,26 @@
+.card {
+  a {
+    text-decoration: none;
+  }
+  &__button {
+    text-decoration: none;
+    width: 100%;
+    margin-top: 16px;
+    max-width: 300px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+
+    border-radius: 16px;
+    background: #9534d2;
+    border: none;
+    cursor: pointer;
+  }
+}
